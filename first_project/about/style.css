@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+nav{
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: black;
+    
+
+}
+
+.logo{
+    color: white;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.logo h4{
+    word-spacing: 10px;
+    font-family: 'Oleo Script', cursive;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin-left: 300px;
+    
+}
+
+.nav-links li{
+    list-style: none;
+    margin-right: 0px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 0px;
+    float: left;
+    font-family: 'Oleo Script', cursive;
+    /* margin-left: 20px; */
+    margin-right: 20px;
+}
+
+/* table, th, td, tr {
+    border: 2px solid black;
+} */
+
+.img1{
+    width: 45em;
+}
+
+
+
+table{
+    margin-top: -10px;
+    width: 30em;
+    
+}
+
+.img2{
+    width: 30em;
+    height: 35em;
+}
+
+table h4{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+table span{
+    font-size: 40px;
+    font-family: 'Oleo Script', cursive;
+}
+
+table p{
+    align-self: center;
+    color: rgb(82, 79, 79);
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Barlow', sans-serif;
+    
+}
+
+.p1{
+    padding-left: 25px;
+}
+
+.p2{
+    padding-left: 90px;
+    padding-right: 25px;
+    padding-bottom: 200px;
+    
+}
+
+.pro{
+    height: 200px;
+}

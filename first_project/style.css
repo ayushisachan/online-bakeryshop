@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+nav{
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: black;
+    
+
+}
+
+.logo{
+    color: white;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.logo h4{
+    word-spacing: 10px;
+    font-family: 'Oleo Script', cursive;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin-left: 300px;
+    
+}
+
+.nav-links li{
+    list-style: none;
+    margin-right: 0px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 0px;
+    float: left;
+    font-family: 'Oleo Script', cursive;
+    /* margin-left: 20px; */
+    margin-right: 20px;
+}
+
+
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 95vh;
+    animation: animate 16s normal infinite;
+    
+}
+
+.outer{
+    position: absolute;
+    width: 100%;
+    height: 95vh;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.details{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.details h1{
+    font-size: 4em;
+    font-family: 'Oleo Script', cursive;
+    word-spacing: 10px;
+
+}
+
+.details h2{
+    text-transform: capitalize;
+}
+
+@keyframes animate{
+    0%{
+        background-image: url(/img/1.jpg);
+    }
+    25%{
+        background-image: url(/img/2.jpg);
+    }
+    50%{
+        background-image: url(/img/3.jpg);
+    }
+    75%{
+        background-image: url(/img/5.jpg);
+    }
+    100%{
+        background-image: url(/img/1.jpg);
+    }
+}
+
+
+.table1{
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+td a{
+    margin-left: 400px;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 28px;
+    
+}
+
+.tab-heading{
+    text-align: center;
+    height: 300px;
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+td p{
+    text-align: center;
+    margin-top: -50px;
+    margin-left: 80px;
+}
+
+table td{
+     /* border: 4px solid black; */
+     
+}
+
+.tab-img{
+    width: 50%;
+    
+}
+
+
+
+
+
+
+.middle{
+    margin-top: 60px;
+}
+
+.tab2{
+    
+    border-collapse: separate;
+    border-spacing: 70px;
+}
+
+.tab2 th{
+    font-size: 25px;
+}
+
+.mid-butt{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mid-butt a{
+    text-decoration: none;
+    
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.pic{
+    background-image: url(/img/wall.jpg);
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+}
+
+.bottom{
+    position: absolute;
+    width: 100%;
+    background-image: url(/img/bench.jpg);
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.lines{
+    text-align: center;
+}
+
+.lines {
+    margin-top: 200px;
+    font-weight: bolder;
+    
+}
+
+.lines h2{
+    font-size: 40px;
+    font-family: 'Oleo Script', cursive;
+}
+
+.lines h1{
+    font-size: 100px;
+    font-family: 'Oleo Script', cursive;
+
+}
+
+
+
+
+
